@@ -1,0 +1,78 @@
+.navbar {
+    display: inline-flex;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    // border: 1px solid black;
+
+    &__logo{
+        padding-left: 75px;
+        width: 180px;
+        height: 100px;
+        padding-right: 60px;
+    }
+
+    &__input{
+        display: inline;
+        width: 600px;
+        height: 40px;
+        margin-top: 25px;
+        border: 2px solid #dadada;
+        border-color: #9ecaed;
+        border-radius: 7px;    
+        box-shadow: 0 0 10px #9ecaed;
+    }
+
+    &__signInBtn{
+        margin-left: 90px;
+        margin-top: 35px;
+        border: 2px solid #720e9e;
+        width: 70px;
+        height: 25px;   
+        background: none;
+        border-radius: 30px;
+        color: #720e9e;
+        font-weight: 700;
+        font-size: 12px;
+        padding: 3px;
+}
+
+    &__noti{
+        width: 50px;
+        height: 50px;
+        margin-top: 23px;
+        padding-left: 40px;
+    }
+
+    &__emailImg{
+        height: 60px;
+        width: 60px;
+        margin-top: 18px;
+        padding-left: 15px;
+    }
+
+    &__emailText{
+        background-color: #9ecaed;
+        font-size: 400px;
+    }
+
+    &__inputBtn{
+        height: 40px;
+        width: 90px;
+        justify-content: center;
+        text-align: center;  
+        background: #2196F3;
+        border: 2px solid #dadada;
+        border-radius: 5px;
+        display: inline;
+        border-color: #9ecaed;
+    }
+
+    
+}
+
+
+.navbar__email{
+    font-size: 4px;
+}

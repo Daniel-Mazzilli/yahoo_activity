@@ -1,0 +1,49 @@
+.topStory {
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/KTkGkmSRjDBF4VuRNV6o2A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/nbc_news_122/e1bc741c40401a04f308396ff2de2ec3");
+    background-size: 780px;
+    background-position-x: -85px;
+    background-position-y: -80px;
+    // here for width
+    width: 1000px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    &_transparent {
+      background-color: rgba(211, 210, 216, 0.939);
+      width: 41%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      display: grid;
+      row-gap: 0.6vh;
+      padding: 9vh 2vh;
+      & > * {
+        margin-left: 2vw;
+      }
+  
+      &_header {
+        font-size: 24px;
+        font-weight: 600;
+        width: 25ch;
+      }
+      &_bodyText {
+        font-size: 15px;
+        width: 43ch;
+      }
+      &_link {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      & svg {
+        height: 0.5em;
+        width: 0.5em;
+        position: relative;
+      }
+      &_arrow1 {
+        right: 0.3vw;
+      }
+      &_arrow2 {
+        right: 0.7vw;
+      }
+    }
+  }

@@ -1,0 +1,27 @@
+.topFive ul{
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.topFive ul li img {
+    height: 100px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #324fe1;
+    cursor: pointer;
+  }

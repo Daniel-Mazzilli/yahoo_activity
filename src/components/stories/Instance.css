@@ -1,0 +1,6 @@
+.Instance {
+    display: flex;
+    height: 150px;
+    overflow: hidden;
+    margin: 10px 0;
+}

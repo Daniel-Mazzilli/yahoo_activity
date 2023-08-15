@@ -1,0 +1,50 @@
+.trendingNow {
+    border: 1px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 285px;
+    height: 140px;
+    font-weight: 600;
+    padding: 20px;
+    color: #1d2228;
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+
+    &__header{
+        display: flex;
+        font-size: 14px;
+        margin-bottom: 6px;
+        font-weight: 700;
+
+        &__shape{
+            background-color: #7e1fff;
+            width: 8px;
+            height: 16px;
+            border-radius: 2px;
+            margin-right: 6px;
+        }
+    }
+
+    &__columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__listItem{
+        margin-top: 8px; 
+        font-size: 12px;
+        font-weight: 700;
+
+        &__num{
+            margin-right: 4px;
+            color: #6001d2;
+        }
+    }
+
+    &__listItem:hover{
+        color: #7e1fff;
+        cursor: pointer;
+    }
+    
+}

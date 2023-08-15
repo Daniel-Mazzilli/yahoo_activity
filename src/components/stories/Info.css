@@ -1,0 +1,29 @@
+.Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.spanDiv {
+    font-size: 14px;
+}
+.firstSpan {
+    color: red;
+}
+.secondSpan {
+    opacity: .4;
+}
+
+.Info h3 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stats {
+    opacity: .6;
+    font-size: 14px;
+}
